@@ -1,0 +1,2 @@
+mkdir docker-build-neovim
+ cd docker-build-neovim
