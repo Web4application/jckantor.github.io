@@ -2,106 +2,90 @@
 > Fetch the complete documentation index at: https://anaconda.com/docs/llms.txt
 > Use this file to discover all available pages before exploring further.
 
-# Miniconda 26.x release notes
+# Miniconda 26.1.1 release notes
 
 The release notes below contain changes for each Miniconda version, as well as which
 packages are available in each installer, organized by operating system.
 
 <Update label="Miniconda 26.1.1-1" description="Mar 04, 2026">
-  **Available Python versions:** 3.13.12, 3.12.12, 3.11.14, 3.10.19
+ 
+  **:Available Python versions:** 3.13.12, 3.12.12, 3.11.14, 3.10.19
 
   ## User-facing changes
 
   * conda has been updated to [v26.1.1](https://github.com/conda/conda/releases/tag/26.11.1). See the [conda blog post](https://conda.org/blog/2026-02-03-january-releases) for highlights about this release.
   * Added CPU architecture checks for macOS `.pkg` and `.sh` installers. Attempting to install a macOS installer onto an Intel macOS will lead to an error at the beginning of the installation.
 
-  ## Bug fixes
+ ### Bug fixes
 
-  * Fixed a bug in `.exe` installers that prevented uninstallation if the installation was added to `PATH`.
-
-  <Accordion title="Packages">
-    <Tabs>
-      <Tab title="All Platforms">
+  **Fixed a bug in `.exe` installers that prevented uninstallation if the installation was added to `PATH`**:
+<Accordion title="Packages">
+  <Tabs>
+     <Tab title="All Platforms">
         <table>
-          <thead>
-            <tr>
-              <th>Package Name</th>
-              <th>linux-64</th>
+          <thead>           
+           <tr>
+           :
+ <th>Package Name</th>             
+            <th>linux-64</th>
               <th>linux-aarch64</th>
               <th>osx-arm64</th>
-              <th>win-64</th>
-            </tr>
+              <th>win-64</th></tr>
           </thead>
-
           <tbody>
             <tr>
               <td>\_libgcc\_mutex</td>
               <td>0.1</td>
               <td>0.1</td>
-
               <td />
-
               <td />
-            </tr>
-
+          
+      </tr>
             <tr>
               <td>\_openmp\_mutex</td>
               <td>5.1</td>
               <td>5.1</td>
-
               <td />
-
               <td />
             </tr>
-
             <tr>
-              <td>anaconda-anon-usage</td>
+             
+  
+      <td>anaconda-anon-usage</td>
               <td>0.7.5</td>
               <td>0.7.5</td>
               <td>0.7.5</td>
               <td>0.7.5</td>
             </tr>
-
             <tr>
+            
               <td>anaconda-auth</td>
               <td>0.13.0</td>
               <td>0.13.0</td>
               <td>0.13.0</td>
               <td>0.13.0</td>
             </tr>
-
             <tr>
+            
               <td>anaconda-cli-base</td>
               <td>0.8.1</td>
               <td>0.8.1</td>
               <td>0.8.1</td>
               <td>0.8.1</td>
             </tr>
-
-            <tr>
-              <td>anaconda\_powershell\_prompt</td>
-
+            <tr><td>anaconda\_powershell\_prompt</td>
               <td />
-
               <td />
-
               <td />
-
               <td>1.1.0</td>
             </tr>
-
             <tr>
               <td>anaconda\_prompt</td>
-
               <td />
-
               <td />
-
               <td />
-
               <td>1.1.0</td>
             </tr>
-
             <tr>
               <td>annotated-types</td>
               <td>0.6.0</td>
@@ -109,7 +93,6 @@ packages are available in each installer, organized by operating system.
               <td>0.6.0</td>
               <td>0.6.0</td>
             </tr>
-
             <tr>
               <td>anyio</td>
               <td>4.10.0</td>
@@ -117,7 +100,6 @@ packages are available in each installer, organized by operating system.
               <td>4.10.0</td>
               <td>4.10.0</td>
             </tr>
-
             <tr>
               <td>archspec</td>
               <td>0.2.5</td>
@@ -250,7 +232,6 @@ packages are available in each installer, organized by operating system.
               <td>25.11.0</td>
               <td>25.11.0</td>
             </tr>
-
             <tr>
               <td>conda-package-handling</td>
               <td>2.4.0</td>
