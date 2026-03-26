@@ -11,9 +11,9 @@ TARGETPLATFORM — The value set with --platform flag on build
 TARGETOS - OS component from --platform, e.g. linux
 
 TARGETARCH - Architecture from --platform, e.g. arm64
-
 TARGETVARIANT
-FROM --platform=$BUILDPLATFORM alpine AS build
+
+  FROM --platform=$BUILDPLATFORM alpine AS build
 # RUN <install build dependecies/compiler>
 # COPY <source> .
 ARG TARGETPLATFORM
